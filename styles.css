@@ -17,7 +17,6 @@
 {
 	font-size: 1.1rem;
 	line-height: 1.5;
-	text-align: justify;
 }
 
 @media (min-width: 992px)
@@ -65,4 +64,17 @@
 	padding-top: 1px;
 	padding-bottom: 1px;
 	border-bottom: 1px solid snow;
+}
+
+.navbar-brand, .nav-link
+{
+	font-size: medium !important;
+}
+
+@media (max-width: 576px)
+{
+	.navbar-brand, .nav-link
+	{
+		font-size: small !important;
+	}	
 }
