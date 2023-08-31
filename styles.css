@@ -82,9 +82,9 @@
 
 .gallery-wrapper > div > img
 {
-	aspect-ratio: 2 / 3;
+	aspect-ratio: 1 / 1;
 	width: 100%;
-	object-fit: contain;
+	object-fit: cover;
 }
 
 #scroll-to-top-button
