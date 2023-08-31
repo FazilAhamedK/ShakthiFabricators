@@ -76,5 +76,26 @@
 	.navbar-brand, .nav-link
 	{
 		font-size: small !important;
+		padding: 8px;
 	}	
+}
+
+.gallery-wrapper > div > img
+{
+	aspect-ratio: 2 / 3;
+	width: 100%;
+	object-fit: contain;
+}
+
+#scroll-to-top-button
+{
+	border-radius: 50%;
+	background-color: darkslategray;
+	position: fixed;
+	padding: 6px;
+	bottom: 20px;
+	right: 20px;
+	display: none;
+	justify-content: center;
+	align-items: center;
 }
